@@ -1,0 +1,9 @@
+.footer__menu-items {
+	margin: 0;
+	padding: 0;
+	min-width: 465px;
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	margin-bottom: 24px;
+}

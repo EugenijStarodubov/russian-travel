@@ -1,0 +1,10 @@
+.footer__content {
+	display: flex;
+	max-width: 1184px;
+	justify-content: space-between;
+	align-items: start;
+	font-family: "Inter-Regular";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+}

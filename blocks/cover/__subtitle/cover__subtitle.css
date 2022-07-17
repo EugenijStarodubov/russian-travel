@@ -1,0 +1,8 @@
+.outer__subtitle {
+	position: relative;
+	font-size: 18px;
+	line-height: 1.22;
+	max-width: 360px;
+	opacity: 1;
+	z-index: 2;
+}

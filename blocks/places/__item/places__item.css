@@ -1,0 +1,12 @@
+.place__item {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: start;
+}
+
+.place__item:not(:last-child) {
+	margin-bottom: 80px;
+}

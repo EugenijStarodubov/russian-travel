@@ -1,0 +1,6 @@
+.header__lang-link_is_active {
+	text-decoration: none;
+	display: inline-block;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 1px;
+}

@@ -1,0 +1,74 @@
+.photo-grid__item {
+	max-width: 284px;
+	max-height: 213px;
+}
+
+.photo-grid__item:nth-of-type(1) {
+	background-image: url("../../../images/photo-grid/photo-grid-train.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.photo-grid__item:nth-of-type(2) {
+	background-image: url("../../../images/photo-grid/photo-grid-atharva-tulsi.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.photo-grid__item:nth-of-type(3) {
+	background-image: url("../../../images/photo-grid/photo-grid-tuman.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.photo-grid__item:nth-of-type(4) {
+	background-image: url("../../../images/photo-grid/photo-grid-sochi.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.photo-grid__item:nth-of-type(5) {
+	background-image: url("../../../images/photo-grid/photo-grid-arisa.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.photo-grid__item:nth-of-type(6) {
+	background-image: url("../../../images/photo-grid/photo-grid-baikal.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.photo-grid__item:nth-of-type(7) {
+	background-image: url("../../../images/photo-grid/photo-grid-elbrus.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.photo-grid__item:nth-of-type(8) {
+	background-image: url("../../../images/photo-grid/photo-grid-kondratiev.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.photo-grid__item:nth-of-type(9) {
+	background-image: url("../../../images/photo-grid/photo-grid-kamchatka-1.jpg");
+	background-size: cover;
+}
+
+.photo-grid__item:nth-of-type(10) {
+	background-image: url("../../../images/photo-grid/photo-grid-kamchatka-2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.photo-grid__item:nth-of-type(11) {
+	background-image: url("../../../images/photo-grid/photo-grid-baikal-2.jpg");
+	background-size: cover;
+}
+
+.photo-grid__item:nth-of-type(12) {
+	background-image: url("../../../images/photo-grid/photo-grid-ergaki.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}

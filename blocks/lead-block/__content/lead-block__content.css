@@ -1,0 +1,7 @@
+.lead-block__content {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+	margin-bottom: 92px;
+}

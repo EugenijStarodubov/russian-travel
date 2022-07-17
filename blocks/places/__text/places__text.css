@@ -1,0 +1,8 @@
+.places__text {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: start;
+	max-width: 484px;
+	width: 100%;
+}

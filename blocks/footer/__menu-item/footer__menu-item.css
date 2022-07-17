@@ -1,0 +1,9 @@
+.footer__menu-item {
+	color: #fff;
+	text-decoration: none;
+	line-height: 1.12;
+}
+
+.footer__menu-item:not(:last-child) {
+	margin-right: 100px;
+}
