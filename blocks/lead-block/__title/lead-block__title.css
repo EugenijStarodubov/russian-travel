@@ -1,3 +1,33 @@
 .lead-block__title {
+	box-sizing: border-box;
 	margin-bottom: 32px;
+}
+
+@media screen and (max-width: 768px) {
+	.lead-block__title {
+		max-width: 720px;
+	}
+}
+
+@media screen and (max-width: 680px) {
+	.lead-block__title {
+		max-width: 70%;
+		font-size: 40px;
+		line-height: 110%;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.lead-block__title {
+		max-width: 100%;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.lead-block__title {
+		max-width: 288px;
+		margin-bottom: 16px;
+		font-size: 40px;
+		line-height: 110%;
+	}
 }

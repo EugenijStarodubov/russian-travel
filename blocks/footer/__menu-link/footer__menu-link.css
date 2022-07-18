@@ -1,0 +1,19 @@
+@media screen and (max-width: 320px) {
+	.footer__menu-link {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		margin-left: 16px;
+		margin-bottom: 30px;
+	}
+
+	.footer__menu-link:last-child {
+		margin-bottom: 45px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.footer__menu-link:not(:last-child) {
+		margin: 0 0 32px 16px;
+	}
+}

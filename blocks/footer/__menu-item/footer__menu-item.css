@@ -1,9 +1,22 @@
 .footer__menu-item {
+	box-sizing: border-box;
 	color: #fff;
 	text-decoration: none;
-	line-height: 1.12;
+	line-height: 112%;
+	align-items: start;
+	font-family: "Inter-Regular";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
 }
 
 .footer__menu-item:not(:last-child) {
 	margin-right: 100px;
+}
+
+@media screen and (max-width: 320px) {
+	.footer__menu-item {
+		font-size: 24px;
+		line-height: 100%;
+	}
 }

@@ -1,9 +1,37 @@
 .places__title {
+	box-sizing: border-box;
 	text-align: left;
 	margin-right: 40px;
-	margin-bottom: 48px;
 	max-width: 460px;
 	width: 100%;
+
 	font-size: 72px;
-	line-height: 1.06;
+	line-height: 106%;
+}
+
+@media screen and (max-width: 1024px) {
+	.places__title {
+		margin: 0;
+		margin-right: 32px;
+		max-width: 440px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.places__title {
+		font-size: 42px;
+		line-height: 110%;
+		box-sizing: border-box;
+		text-align: left;
+		margin-right: 38px;
+		max-width: 330px;
+	}
+}
+
+@media screen and (max-width: 615px) {
+	.places__title {
+		font-size: 32px;
+		max-width: 320px;
+		margin: 0;
+	}
 }

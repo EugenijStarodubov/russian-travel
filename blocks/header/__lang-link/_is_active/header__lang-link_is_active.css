@@ -1,4 +1,5 @@
 .header__lang-link_is_active {
+	box-sizing: border-box;
 	text-decoration: none;
 	display: inline-block;
 	border-bottom: 1px solid #fff;

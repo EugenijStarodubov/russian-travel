@@ -1,4 +1,5 @@
 .lead-block__image-caption {
+	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 	align-self: start;
@@ -9,4 +10,25 @@
 	line-height: 140%;
 	letter-spacing: 1.5px;
 	text-transform: uppercase;
+	padding-left: 148px;
+}
+
+@media screen and (max-width: 1024px) {
+	.lead-block__image-caption {
+		padding-left: 48px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.lead-block__image-caption {
+		padding-left: 24px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.lead-block__image-caption {
+		padding-left: 16px;
+		font-size: 10px;
+		line-height: 140%;
+		letter-spacing: 1.5px;
+	}
 }
