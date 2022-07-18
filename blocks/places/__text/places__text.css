@@ -5,13 +5,7 @@
 	max-width: 484px;
 	width: 100%;
 }
-/*
-@media screen and (max-width: 1024px) {
-	.places__text {
-		max-width: 456px;
-	}
-}
-/*--*/
+
 @media screen and (max-width: 615px) {
 	.places__text {
 		max-width: 288px;
