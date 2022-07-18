@@ -1,4 +1,4 @@
-.cover__content {
+.page__cover {
 	text-decoration: none;
 	color: #fff;
 	display: flex;
@@ -9,13 +9,13 @@
 }
 
 @media screen and (max-width: 768px) {
-	.cover__content {
+	.page__cover {
 		margin-bottom: 92px;
 	}
 }
 
 @media screen and (max-width: 510px) {
-	.cover__content {
+	.page__cover {
 		margin-bottom: 64px;
 		width: 100%;
 	}

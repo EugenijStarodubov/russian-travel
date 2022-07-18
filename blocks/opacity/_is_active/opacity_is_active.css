@@ -1,7 +1,0 @@
-.opacity_is_active {
-	transition: opacity 0.9s ease-out 0s;
-}
-
-.opacity_is_active:hover {
-	opacity: 0.8;
-}

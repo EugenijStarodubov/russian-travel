@@ -1,25 +1,29 @@
-.lead-block__content {
+.page__intro {
 	box-sizing: border-box;
 	display: flex;
 	flex-direction: column;
-	justify-content: start;
-	align-items: center;
+	justify-content: flex-start;
+	align-items: start;
 	margin-bottom: 92px;
+	margin-left: 148px;
 }
 
 @media screen and (max-width: 1024px) {
-	.lead-block__content {
-		margin-bottom: 88px;
+	.page__intro {
+		margin-left: 48px;
 	}
 }
+
 @media screen and (max-width: 768px) {
-	.lead-block__content {
+	.page__intro {
 		margin-bottom: 88px;
+		margin-left: 24px;
 	}
 }
 
 @media screen and (max-width: 320px) {
-	.lead-block__content {
+	.page__intro {
 		margin-bottom: 64px;
+		margin-left: 16px;
 	}
 }
