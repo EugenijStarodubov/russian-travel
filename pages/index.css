@@ -63,4 +63,4 @@
 @import url("../blocks/footer/__menu-item/footer__menu-item.css");
 @import url("../blocks/footer/__menu-link/footer__menu-link.css");
 /*---------------------OPACITY---------------------------------------*/
-@import url("../blocks/page/__link-opacity/_is_active/page__opacity_is_active.css");
+@import url("../blocks/link/_opacity_is-active/link_opacity_is-active.css");
