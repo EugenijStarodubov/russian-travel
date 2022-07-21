@@ -1,16 +1,18 @@
-.page__intro {
+.page__photo-grid {
 	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
 	margin-bottom: 64px;
 }
 
 @media screen and (min-width: 768px) {
-	.page__intro {
-		margin-bottom: 87px;
+	.page__photo-grid {
+		margin-bottom: 84px;
 	}
 }
 
 @media screen and (min-width: 1024px) {
-	.page__intro {
+	.page__photo-grid {
 		margin-bottom: 92px;
 	}
 }

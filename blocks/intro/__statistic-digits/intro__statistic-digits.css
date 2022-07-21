@@ -1,0 +1,10 @@
+.intro__statistic-digits {
+	box-sizing: border-box;
+	max-width: 100%;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 150%;
+	letter-spacing: 0.2px;
+}

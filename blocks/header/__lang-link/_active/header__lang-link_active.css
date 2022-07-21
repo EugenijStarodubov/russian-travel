@@ -1,7 +1,7 @@
-.header__lang-link_is_active {
+.header__lang-link_active {
 	box-sizing: border-box;
 	text-decoration: none;
 	display: inline-block;
 	border-bottom: 1px solid #fff;
-	padding-bottom: 1px;
+	padding-bottom: 0.5px;
 }

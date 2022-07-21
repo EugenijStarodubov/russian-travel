@@ -1,22 +1,22 @@
 .footer__menu-item {
 	box-sizing: border-box;
-	color: #fff;
-	text-decoration: none;
-	line-height: 112%;
-	align-items: start;
-	font-family: "Inter-Regular";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
 }
 
 .footer__menu-item:not(:last-child) {
-	margin-right: 100px;
+	margin-bottom: 32px;
 }
 
-@media screen and (max-width: 320px) {
-	.footer__menu-item {
-		font-size: 24px;
-		line-height: 100%;
+@media screen and (min-width: 768px) {
+	.footer__menu-item:not(:last-child) {
+		margin: 0 18px 22px 0;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.footer__menu-item:not(:last-child) {
+		margin: 0 18px 22px 0;
 	}
 }

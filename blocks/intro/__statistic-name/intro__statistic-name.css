@@ -1,34 +1,30 @@
-.intro__title {
+.intro__statistic-name {
 	max-width: 100%;
 	box-sizing: border-box;
-	padding: 0 16px;
 	margin: 0;
-	margin-bottom: 40px;
+	padding: 0 16px;
 	font-family: "Inter";
 	font-style: normal;
-	font-weight: 900;
-	font-size: 32px;
-	line-height: 109%;
-	text-align: left;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 150%;
 	color: #fff;
 }
 
 @media screen and (min-width: 768px) {
-	.intro__title {
-		font-size: 54px;
-		line-height: 107%;
+	.intro__statistic-name {
 		padding: 0 24px;
 	}
 }
 
 @media screen and (min-width: 1024px) {
-	.intro__title {
+	.intro__statistic-name {
 		padding: 0 48px;
 	}
 }
 
 @media screen and (min-width: 1280px) {
-	.intro__title {
+	.intro__statistic-name {
 		padding: 0 148px;
 	}
 }

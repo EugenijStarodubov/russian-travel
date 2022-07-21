@@ -1,26 +1,29 @@
 .lead-block__subtitle {
+	max-width: 100%;
 	box-sizing: border-box;
-	margin-bottom: 64px;
+	margin: 0 auto;
+	padding: 0 16px;
+	margin-bottom: 40px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 768px) {
 	.lead-block__subtitle {
 		margin-bottom: 56px;
+		font-size: 30px;
+		line-height: 120%;
+		text-align: center;
 	}
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (min-width: 1024px) {
 	.lead-block__subtitle {
-		font-size: 24px;
-		max-width: 70%;
+		max-width: 640px;
 	}
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 1280px) {
 	.lead-block__subtitle {
-		margin-bottom: 40px;
-		font-size: 16px;
-		line-height: 125%;
-		min-width: 288px;
+		max-width: 640px;
+		margin-bottom: 64px;
 	}
 }

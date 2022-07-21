@@ -1,21 +1,17 @@
 .footer__menu-items {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	min-width: 465px;
-	display: flex;
-	justify-content: space-between;
 	list-style: none;
+	box-sizing: border-box;
+	margin: 0 0 48px 0;
+	padding: 0;
+	max-width: 100%;
+	display: flex;
+	flex-direction: column;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
 	.footer__menu-items {
-	}
-}
-
-@media screen and (max-width: 320px) {
-	.footer__menu-items {
-		flex-direction: column;
-		align-items: top;
+		flex-direction: row;
+		justify-content: space-between;
+		margin: 0;
 	}
 }
