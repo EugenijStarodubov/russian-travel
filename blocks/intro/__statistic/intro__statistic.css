@@ -1,6 +1,25 @@
 .intro__statistic {
 	box-sizing: border-box;
-	padding: 0;
+	padding: 0 16px;
 	margin: 0;
+	width: 100%;
 	list-style: none;
+}
+
+@media screen and (min-width: 768px) {
+	.intro__statistic {
+		padding: 0 24px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.intro__statistic {
+		padding: 0 48px;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.intro__statistic {
+		padding: 0 148px;
+	}
 }

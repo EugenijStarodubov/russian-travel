@@ -1,6 +1,6 @@
 .lead-block__title {
 	box-sizing: border-box;
-	margin: 0;
+	margin: 0 auto;
 	padding: 0 16px;
 	margin-bottom: 16px;
 	max-width: 100%;
@@ -19,8 +19,6 @@
 
 @media screen and (min-width: 1280px) {
 	.lead-block__title {
-		margin: 0 auto;
-		margin-bottom: 32px;
 		max-width: 720px;
 	}
 }

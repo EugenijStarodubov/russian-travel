@@ -10,6 +10,7 @@
 		padding: 0 48px;
 	}
 }
+
 @media screen and (min-width: 1280px) {
 	.lead-block {
 		padding: 0 148px;

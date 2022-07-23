@@ -3,11 +3,16 @@
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
-	font-family: "Inter";
+	font-family: "Inter", "Arial", sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 1.22;
 	color: #fff;
 	text-decoration-line: underline;
+	transition: opacity 0.9s ease-out 0s;
+}
+
+.link:hover {
+	opacity: 0.8;
 }

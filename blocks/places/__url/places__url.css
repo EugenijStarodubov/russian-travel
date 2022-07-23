@@ -1,27 +1,21 @@
 .places__url {
 	box-sizing: border-box;
+	max-width: 288px;
 	margin: 0;
-	padding: 0 16px;
-	font-family: "Inter";
+	padding: 0;
+	font-family: "Inter", "Arial", sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 12px;
-	line-height: 108%;
+	line-height: 100%;
 	letter-spacing: 2px;
 	color: #aaa;
 	margin-bottom: 12px;
+	text-transform: uppercase;
 }
 
 @media screen and (min-width: 768px) {
 	.places__url {
-		padding: 0;
 		max-width: 352px;
-	}
-}
-
-@media screen and (min-width: 1024px) {
-	.places__url {
-		padding: 0;
-		line-height: 100%;
 	}
 }

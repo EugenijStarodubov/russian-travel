@@ -1,24 +1,18 @@
 .photo-grid {
 	box-sizing: border-box;
 	margin: 0;
-	padding: 0;
-	max-width: 100%;
+	padding: 0 16px;
+	width: 100%;
 }
 
 @media screen and (min-width: 768px) {
 	.photo-grid {
-		min-height: 1664px;
+		padding: 0 24px;
 	}
 }
 
 @media screen and (min-width: 1024px) {
 	.photo-grid {
-		min-height: 942px;
-	}
-}
-
-@media screen and (min-width: 1280px) {
-	.photo-grid {
-		min-height: 671px;
+		padding: 0 48px;
 	}
 }
