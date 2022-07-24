@@ -33,8 +33,7 @@
 @media screen and (min-width: 1280px) {
 	.places__item {
 		max-width: 984px;
-		padding: 0 148px;
-		grid-template-columns: minmax(460px, 1fr) minmax(484px, 1fr);
+		grid-template-columns: minmax(min-content, 460px) minmax(min-content, 484px);
 		grid-template-rows: minmax(76px, min-content) 1fr;
 		column-gap: 40px;
 	}

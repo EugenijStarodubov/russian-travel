@@ -1,3 +1,22 @@
 {
-	"liveServer.settings.multiRootWorkspaceName": "russian-travel"
+	"liveServer.settings.multiRootWorkspaceName": "russian-travel",
+	"files.autoSave": "onFocusChange",
+	"editor.tabSize": 2,
+	"editor.wordWrap": "on",
+	"editor.autoClosingDelete": "always",
+	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.guides.bracketPairs": true,
+	"editor.semanticHighlighting.enabled": true,
+	"editor.wrappingIndent": "indent",
+	"editor.formatOnType": true,
+	"css.format.maxPreserveNewLines": 0,
+	"css.format.spaceAroundSelectorSeparator": true,
+	"css.lint.boxModel": "warning",
+	"css.lint.duplicateProperties": "warning",
+	"css.lint.importStatement": "warning",
+	"css.lint.zeroUnits": "warning",
+	"less.format.spaceAroundSelectorSeparator": true,
+	"better-comments.highlightPlainText": true,
+	"emmet.triggerExpansionOnTab": true
 }
